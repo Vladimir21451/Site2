@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+  /*  background: url(https://yadi.sk/i/xVGltcNYq1jcpg);*/
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+   /* background-color: #d0d1d3; */
+    background: url(../images/saratov_1.jpg);
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+h1{
+    color:#badff5;
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.news{
+    background-color: #fff;;
+    padding: 50px 32px;
+}
+article{
+    width: 768px; 
+    margin:0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(128,128,128);
+    background-color: #badff5;
+}
+article a{
+    color: rgb(33, 37, 41);
+    text-decoration: none;
+}
+article a:hover{
+    color: #0085a1;
+}
+artic h2{
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+.article-meta{
+    color: rgb(134, 142, 150);
+    margin-bottom: 5px;
+}
+article img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+footer{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+    background-color: rgb(230, 245, 218);
+}
+footer .links {
+    margin-bottom: 50px;
+}
+footer .links > a{
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.copyright {
+    color: rgb(108,117,125);
+    font-family: 'Times New Roman', Times, serif;
+}
+h2.tip:before{
+    content: "NEW!";
+    color: #ff0000;
+}
+section>article:nth-child(even){background-color: #bfc9cc;}
